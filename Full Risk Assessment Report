@@ -64,3 +64,192 @@ Score Risks: Apply the Likelihood × Impact model to all risks.
 Document Risks: Create a structured risk register containing scores, controls, and NIST mappings.
 
 Recommend Controls: Align mitigation strategies with NIST CSF categories for clarity and best-practice alignment.
+
+4. Asset Inventory
+
+This assessment focuses on the critical assets that support the U2 Elite Foundation’s operations, programs, and community engagement. These assets include sensitive data, cloud-based systems, financial tools, and the devices used by staff and volunteers. Each asset plays a key role in delivering services and therefore requires protection against cybersecurity risks.
+
+4.1 Critical Assets Identified
+Asset	Description	Importance
+Participant & Donor Data	Personal information, emergency contacts, waivers, and donation history collected through online forms and registration systems.	High
+Staff & Volunteer Accounts	Email accounts, calendars, and shared documents used for operations, scheduling, and communication.	High
+Google Workspace (Cloud Storage)	Central repository for rosters, training plans, administrative documents, photos, and operational resources.	High
+Payment Systems (Stripe, QuickBooks)	Platforms used for donations, event fees, and financial tracking.	High
+Website & Program Registration Portal	Public-facing site where families register for programs and events.	Medium–High
+Event Devices (Laptops/Tablets)	Devices used for scorekeeping, registration, and event operations; often in shared or mobile environments.	Medium
+Social Media Accounts	Used for marketing, community outreach, and brand communication (Instagram, Facebook).	Medium
+Communication Platforms	Messaging or scheduling tools used by staff (e.g., Gmail, GroupMe).	Medium
+4.2 Asset Considerations
+
+Assets contain sensitive personal data, similar to small healthcare or education organizations.
+
+Cloud-based systems increase flexibility but also increase exposure to misconfigurations.
+
+Event devices may be used on unsecured networks, increasing risk.
+
+Social media accounts are high-value targets for brand impersonation or takeover.
+
+Understanding these assets allows the organization to evaluate risks more accurately and prioritize controls aligned with operational needs.
+
+5. Risk Assessment Results
+
+The risks identified for the U2 Elite Foundation were evaluated using the Likelihood × Impact scoring model. Each risk was assessed based on realistic threats to nonprofits and youth-focused organizations that rely heavily on cloud services, volunteer-operated accounts, and public-facing systems.
+
+5.1 Risk Summary Table
+
+Below is the summarized version of your risk register, presented in a narrative-friendly table for the report:
+
+Risk ID	Risk Description	Likelihood	Impact	Score	Level
+R1	Phishing attack leading to account compromise	4	4	16	High
+R2	Misconfigured Google Drive exposing sensitive data	3	5	15	High
+R3	Unpatched laptops used during programs & events	4	3	12	Medium
+R4	Weak passwords among staff/volunteers	4	3	12	Medium
+R5	Website registration portal breach	2	5	10	Medium
+R6	Third-party payment vendor breach (Stripe)	2	5	10	Medium
+R7	Social media account takeover	3	4	12	Medium
+5.2 Key Findings
+High-Priority Risks
+
+These require immediate attention due to their impact on participant data and operational continuity:
+
+Phishing threats (R1) — High likelihood and can lead to unauthorized access, financial fraud, or data exposure.
+
+Cloud misconfigurations (R2) — A common issue in nonprofits; could expose sensitive donor/participant data publicly.
+
+Medium-Priority Risks
+
+These are significant and should be addressed systematically:
+
+Unpatched event laptops (R3) — Common in organizations with multiple shared devices.
+
+Weak password hygiene (R4) — Seasonal volunteers increase the chance of password reuse and compromise.
+
+Website vulnerability (R5) — Public-facing portals are common targets for injection or credential-stuffing attacks.
+
+Vendor risk (R6) — As a small organization, U2 Elite depends heavily on third parties; breaches could still impact the foundation.
+
+Social media takeover (R7) — Could result in reputational damage or misinformation spread.
+
+5.3 Overall Risk Posture
+
+U2 Elite Foundation’s risk posture reflects that of many small nonprofits:
+
+High dependence on cloud services
+
+Limited internal IT resources
+
+High exposure to phishing and misconfigurations
+
+Mix of staff, seasonal workers, and volunteers
+
+Third-party reliance for critical operations
+
+With proper controls, training, and governance, the overall posture can shift to moderate or low risk within a short period.
+
+
+6. Recommendations
+
+Based on the risks identified, the following mitigation strategies are recommended to strengthen U2 Elite Foundation’s cybersecurity posture. Each recommendation aligns with relevant NIST CSF categories to demonstrate best-practice governance and compliance maturity.
+
+6.1 High-Priority Recommendations
+1. Implement Multi-Factor Authentication (MFA) Across All Accounts
+
+Reduces the likelihood of account compromise from phishing.
+
+Applies to Google Workspace, registration platforms, and social media accounts.
+NIST CSF: PR.AC-1, PR.AC-7
+
+2. Strengthen Cloud Security Configurations (Google Workspace)
+
+Enable Data Loss Prevention (DLP).
+
+Restrict file-sharing to authorized domains only.
+
+Implement regular access and permission reviews.
+NIST CSF: PR.DS-1, PR.AC-4
+
+3. Improve Email Security & Phishing Protection
+
+Deploy advanced spam filtering and malicious link detection.
+
+Provide quarterly security awareness training for staff and volunteers.
+NIST CSF: PR.AT-1, DE.CM-7
+
+4. Establish a Standardized Patch Management Process
+
+Ensure all staff and event devices receive timely updates.
+
+Deploy Endpoint Detection & Response (EDR) tools where possible.
+NIST CSF: PR.IP-12, PR.MA-1
+
+6.2 Medium-Priority Recommendations
+5. Strengthen Password Policies and Credential Management
+
+Enforce password rotation for staff and volunteers.
+
+Introduce password managers for secure storage.
+NIST CSF: PR.AC-1, PR.AC-7
+
+6. Improve Security of Public-Facing Systems
+
+Conduct periodic website vulnerability scans.
+
+Implement a Web Application Firewall (WAF) for the registration portal.
+NIST CSF: DE.CM-8, PR.DS-6
+
+7. Implement a Third-Party Vendor Risk Review Process
+
+Review SOC 2 or independent security reports for key vendors (e.g., Stripe).
+
+Document any identified risks and compensating controls.
+NIST CSF: ID.SC-3
+
+8. Secure Social Media Accounts
+
+Use MFA and role-based access for Instagram/Facebook.
+
+Centralize management of logins and limit sharing of passwords.
+NIST CSF: PR.AC-6
+
+6.3 Program-Level Governance Improvements
+9. Create Baseline Security Policies
+
+Recommended policies:
+
+Acceptable Use Policy (AUP)
+
+Access Control Policy
+
+Incident Response Plan
+
+Data Retention Policy
+NIST CSF: ID.GV-1, PR.IP-1
+
+10. Conduct Annual Risk Assessments
+
+Repeat this assessment yearly or after major system changes.
+
+Track improvements and adjust priorities as needed.
+NIST CSF: ID.RA-1
+
+6.4 Expected Impact
+
+Implementing the above recommendations will:
+
+Reduce the organization’s likelihood of phishing-related breaches
+
+Lower the probability of sensitive data exposure
+
+Strengthen transparency with donors and families
+
+Establish a repeatable, maturity-focused cybersecurity program
+
+Position U2 Elite Foundation as a secure and trusted community organization
+
+7. Conclusion
+
+The U2 Elite Foundation operates in a dynamic environment where digital systems support youth programs, community engagement, donor management, and internal operations. As the organization continues to grow, it becomes increasingly important to protect sensitive information and ensure that technology resources remain secure and reliable.
+
+This assessment identified several risks that are common within nonprofit organizations, particularly those that rely heavily on cloud services, volunteer-operated accounts, and third-party vendors. By prioritizing high-impact risks such as phishing threats, cloud misconfigurations, and unpatched devices, the foundation can significantly reduce its exposure to cybersecurity incidents.
+
+Implementing the recommended NIST-aligned controls will enhance the security of participant and donor data, strengthen operational continuity, and support long-term organizational resilience. Consistent governance, ongoing training, and periodic reassessments will help maintain a strong cybersecurity posture and ensure that the U2 Elite Foundation continues to provide a safe and trusted environment for its athletes, families, staff, and community partners.
