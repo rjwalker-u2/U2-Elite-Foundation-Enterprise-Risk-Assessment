@@ -1,0 +1,66 @@
+1. Executive Summary
+
+The U2 Elite Foundation relies on digital systems to manage youth program registrations, donor information, internal communications, and community operations. As the organization grows, so does its exposure to cyber threats that could compromise sensitive data, disrupt operations, or damage the foundation’s reputation.
+
+This risk assessment identifies the most significant cybersecurity risks across U2 Elite Foundation’s information systems. Using the NIST Cybersecurity Framework (CSF), the assessment evaluates each risk based on likelihood and impact, prioritizes them using a standardized scoring model, and provides actionable mitigation strategies.
+
+The assessment highlights several high-priority risks, including phishing-based account compromise, misconfigured cloud storage, and unpatched devices used during programs and events. Addressing these risks will strengthen the foundation’s security posture, protect participant and donor information, and enhance operational resilience.
+
+2. Organization Overview
+
+The U2 Elite Foundation is a nonprofit organization focused on youth athletics, community development, and performance training. The foundation manages a range of programs including basketball training, academic support, mental performance development, and community events. To support these operations, U2 Elite relies on a combination of cloud-based platforms, digital communication systems, and online registration tools.
+
+The organization handles sensitive information such as participant records, donor details, volunteer data, event registrations, and internal documents. Operations are supported by a hybrid team consisting of full-time staff, part-time coaches, and volunteers who frequently access systems using personal and organizational devices.
+
+Because nonprofit organizations often operate with limited IT resources, U2 Elite faces evolving cyber risks related to email security, data protection, cloud misconfigurations, and reliance on third-party vendors. This assessment provides a structured approach to identifying and prioritizing those risks to ensure the foundation maintains a secure and resilient environment for its athletes, families, and staff.
+
+3. Methodology
+
+This risk assessment uses a structured approach based on the NIST Cybersecurity Framework (CSF), which provides industry-standard guidelines for identifying, evaluating, and managing cybersecurity risks. The assessment follows a five-step process designed to ensure consistency, clarity, and actionable outcomes.
+
+3.1 Framework Used
+
+NIST CSF
+The assessment aligns identified risks and recommended controls with the five core NIST CSF functions:
+
+Identify (ID) – Understanding assets, risks, and organizational context
+
+Protect (PR) – Safeguards to limit or contain security events
+
+Detect (DE) – Activities to discover cybersecurity events
+
+Respond (RS) – Actions taken once a security incident is detected
+
+Recover (RC) – Restoration of systems and operations
+
+3.2 Risk Scoring Model
+
+Each risk is evaluated using a Likelihood × Impact formula on a scale from 1 to 5.
+
+Likelihood: The probability that a threat could exploit a vulnerability
+
+Impact: The severity of consequences if the event occurs
+
+Risk Score = Likelihood × Impact
+
+Scores are categorized as:
+
+1–5: Low
+
+6–10: Medium
+
+11–15: Medium–High
+
+16–25: High
+
+3.3 Assessment Process
+
+Identify Assets: Determine critical systems, data, and operational components.
+
+Identify Threats & Vulnerabilities: Examine potential events that could negatively impact security.
+
+Score Risks: Apply the Likelihood × Impact model to all risks.
+
+Document Risks: Create a structured risk register containing scores, controls, and NIST mappings.
+
+Recommend Controls: Align mitigation strategies with NIST CSF categories for clarity and best-practice alignment.
