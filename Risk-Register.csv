@@ -1,0 +1,8 @@
+Risk ID,Risk Description,Asset,Likelihood (1-5),Impact (1-5),Risk Score,Level,Control Recommendations,NIST CSF Mapping
+R1,Phishing attack leading to account compromise,Staff email accounts,4,4,16,High,Implement MFA, email filtering, quarterly phishing training,PR.AC-1, PR.AT-1, DE.CM-7
+R2,Misconfigured Google Drive exposing sensitive data,Cloud storage,3,5,15,High,Implement DLP, access reviews, configuration scanning,PR.DS-1, PR.AC-4
+R3,Unpatched laptops used during programs & events,Endpoints,4,3,12,Medium,Automated patching, EDR deployment,PR.IP-12, PR.MA-1
+R4,Weak passwords used by volunteers & seasonal staff,User identities,4,3,12,Medium,Password policy enforcement, MFA,PR.AC-7
+R5,Website registration portal breach,Public-facing systems,2,5,10,Medium,Web app scanning, WAF, secure coding practices,PR.DS-6, DE.CM-8
+R6,Third-party payment vendor breach (Stripe),Financial data,2,5,10,Medium,Vendor risk management, SOC report review,ID.SC-3
+R7,Social media account takeover,Brand reputation assets,3,4,12,Medium,MFA, password vaults, role-based access,PR.AC-6
