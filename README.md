@@ -53,7 +53,7 @@ The assessment identified 6 priority risks requiring immediate or near-term reme
 | Third-party payment vendor breach (Stripe/QuickBooks) | 2 | 5 | 10 | High |
 
 ## Author
-**RJ Walker** | Aspiring GRC Analyst | [LinkedIn Profile](your-linkedin-url-here)
+**RJ Walker** | Aspiring GRC Analyst | [Ronald Walker](https://www.linkedin.com/in/ronald-walker-ms-866a261b0?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
 
 *This is a portfolio project simulating a real-world GRC engagement. The U2 Elite Foundation 
 scenario is fictional and created for educational and career development purposes.*
