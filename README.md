@@ -52,6 +52,25 @@ The assessment identified 6 priority risks requiring immediate or near-term reme
 | Social media account takeover | 3 | 3 | 9 | High |
 | Third-party payment vendor breach (Stripe/QuickBooks) | 2 | 5 | 10 | High |
 
+---
+
+## What I Learned
+This project gave me hands-on experience applying a real enterprise GRC methodology from start to finish. 
+Key takeaways include:
+
+- **Framework application:** Translating NIST CSF theory into a practical control mapping exercise 
+  revealed how many nonprofit organizations have significant gaps in the *Protect* and *Detect* functions.
+- **Risk prioritization:** Scoring risks objectively using Likelihood x Impact helped me understand 
+  how GRC analysts communicate urgency to leadership without overstating every finding.
+- **Policy writing:** Drafting the Acceptable Use and Access Control policies required balancing 
+  technical accuracy with language accessible to non-technical staff and volunteers.
+- **Thinking like an attacker:** Identifying threats specific to a nonprofit — donor data, volunteer 
+  onboarding, event registration portals — reinforced that risk context is always industry-specific.
+- **Documentation discipline:** Producing a full deliverable set (report, register, heat map, policies, 
+  diagrams) mirrors real GRC project work and showed me how interconnected each artifact is.
+
+---
+
 ## Author
 **RJ Walker** | Aspiring GRC Analyst | [Ronald Walker](https://www.linkedin.com/in/ronald-walker-ms-866a261b0?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
 
